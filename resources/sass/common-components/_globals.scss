@@ -1,0 +1,43 @@
+.bg-img{
+    background-repeat: no-repeat;
+}
+
+.bg-cover{
+    background-size: cover;
+}
+
+.bg-contain{
+    background-size: contain;
+}
+
+.bg-center{
+    background-position: center;
+}
+
+section{
+    position: relative;
+    padding: 6rem 0;
+
+    .content-block{
+
+        p{
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+}
+
+
+
+.site-loader{
+    position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background: #fff;
+	z-index: 9999;
+}

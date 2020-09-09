@@ -1,10 +1,10 @@
 <?php common_component('header'); ?>
 
-    <main role="main">
+<main role="main">
 
-        <?php page('home'); ?>
+    <?php page('home'); ?>
 
-    </main>
+</main>
 
 <?php common_component('footer'); ?>
 

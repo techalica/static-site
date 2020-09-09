@@ -1,6 +1,7 @@
-        <footer class="site-footer">
-            your footer markup
-        </footer>
-        <script src="assets/js/scripts.js"></script>
-    </body>
+<footer class="site-footer">
+
+</footer>
+<script src="assets/js/scripts.js"></script>
+</body>
+
 </html>
