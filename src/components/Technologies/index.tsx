@@ -50,7 +50,7 @@ import Node from "./node";
 import Nuxt from "./nuxt-js";
 import Pwa from "./pwa";
 import ReactQuery from "./react-query";
-import React from "./react";
+import ReactJs from "./react-js";
 import Redis from "./redis";
 import ReduxSaga from "./redux-saga";
 import Redux from "./redux";
@@ -124,7 +124,7 @@ export {
   Nuxt,
   Pwa,
   ReactQuery,
-  React,
+  ReactJs,
   Redis,
   ReduxSaga,
   Redux,

@@ -1,5 +1,5 @@
 import { SVGProps } from "react";
-const React = (props: SVGProps<SVGSVGElement>) => (
+const ReactJs = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMidYMid"
@@ -12,4 +12,4 @@ const React = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default React;
+export default ReactJs;

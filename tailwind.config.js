@@ -19,9 +19,19 @@ module.exports = {
           "50%": { transform: "translate3d(0, 0, 0)" },
           "100%": { transform: "translate3d(0, 70px, 0)" },
         },
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marqueeReverse: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
       },
       animation: {
         scrollDown: "scrollDown 1.5s ease-in-out infinite",
+        marquee: 'marquee 150s linear infinite',
+        marqueeReverse: 'marqueeReverse 150s linear infinite'
       },
     },
   },
